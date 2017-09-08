@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app="app">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<title>冲浪app</title>
+		<script src="js/jquery-3.2.1.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" href="css/swiper.min.css" />
+		<link rel="stylesheet" href="css/animate.css" />
+		<script src="js/angular.min.js"></script>
+		<script src="js/angular-ui-router.js"></script>
+		<script type="text/javascript" src="index.js" ></script>
+		<script src="module/page.js"></script>
+		<script src="js/swiper.min.js"></script>
+	</head>
+	<body>
+		<section><ui-view></ui-view></section>
+		<footer>
+			<ul>
+				<a href="#!/one"><li><i class="iconfont">&#xe60a;</i><span>首页</span></li></a>
+				<a href="#!/two"><li><i class="iconfont">&#xe688;</i><span>冲浪</span></li></a>
+				<a href="#!/three"><li><i class="iconfont">&#xe775;</i><span>冲浪板</span></li></a>
+				<a href="#!/four"><li><i class="iconfont">&#xe501;</i><span>冲浪须知</span></li></a>
+			</ul>
+		</footer>
+	</body>
+</html>
